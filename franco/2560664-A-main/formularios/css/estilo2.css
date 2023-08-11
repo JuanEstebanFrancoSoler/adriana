@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.contenedor{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscar-bar{
+    width: 100%;
+    max-width: 700px;
+    background:green ;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+
+}
+
+buscar-bar input{
+    background:transparent;
+    flex:1;
+    border:0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder{
+    color:#cac7ff;
+}
+.buscar-bar button img{
+    width: 25px;
+}
+.buscar-bar button{
+    border:0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: blueviolet;
+    cursor: pointer;
+}
